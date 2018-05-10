@@ -10,10 +10,10 @@
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Digiwage",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "WAGE",
 
   // logo
   "logo": "/images/logo.png",
@@ -53,7 +53,7 @@
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 100,
 
   // language settings
   "locale": "locale/en.json",
@@ -74,16 +74,16 @@
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": true,
-    "difficulty": "POW",
+    "difficulty": "Hybrid",
     "last_txs": 100
   },
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockindex": 0,
+    "blockhash": "000009f854e700ab62642c7d3e94be65a1d8c112384f5edfb4b2b3fa3fecaef6",
+    "txhash": "dda70dbacbeeb39750532e69dad0a0025c16e9bcc7ca412cf12a988d0020309d",
+    "address": "D8NfgQaGPZUSBp3AQpLJPdSN1QFBUskbeR"
   },
 
   // market settings
@@ -120,8 +120,8 @@
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "dda70dbacbeeb39750532e69dad0a0025c16e9bcc7ca412cf12a988d0020309d",
+  "genesis_block": "000009f854e700ab62642c7d3e94be65a1d8c112384f5edfb4b2b3fa3fecaef6",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
@@ -138,7 +138,7 @@
   // HEAVY: retreive from heavys getsupply api call
   // BALANCES : total of all address balances
   // TXOUTSET : retreive from gettxoutsetinfo api call
-  "supply": "COINBASE",
+  "supply": "TXOUTSET",
 
   // how to acquire network hashrate
   // getnetworkhashps: uses getnetworkhashps api call, returns in GH/s
